@@ -1,0 +1,18 @@
+[
+    {
+        "id": "FOLK1AM",
+        "title": "Befolkningen den 1. i kvartalet",
+        "unit": "Antal",
+        "updated": "2024-08-12T08:00:00",
+        "firstPeriod": "2008K1",
+        "lastPeriod": "2024K3",
+        "variables": [
+            "område", 
+            "køn", 
+            "alder", 
+            "civilstand", 
+            "tid"
+        ],
+        "n_municipalities": 98
+    }
+]

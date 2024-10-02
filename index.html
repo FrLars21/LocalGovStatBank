@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LocalGovStatBank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="container w-8/12 mx-auto py-8">
+        <section class="flex flex-col gap-2 mb-8">
+            <h1 class="text-4xl font-bold">LocalGovStatBank</h1>
+            <p class="text-lg text-gray-700">Discover comprehensive municipality-level data published by Statistics Denmark.</p>
+        </section>
+        <!-- Cards container -->
+        <div id="cardsContainer">
+            <!-- Cards will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
 
