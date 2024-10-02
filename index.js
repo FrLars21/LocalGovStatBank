@@ -15,10 +15,13 @@ function createCard(item) {
         </div>
         <div class="flex flex-col gap-2">
             <span class="text-gray-500 text-sm">Last updated</span>
-            <span>${item.updated}</span>
+            <span>${item.updated.split('T')[0]}</span>
+            <span>${item.updated.split('T')[1].slice(0, -3)}</span>
         </div>
-        <span>${item.n_municipalities}/98</span>
-        <a href="https://statbank.dk/${item.id}" target="_blank" class="bg-blue-500 text-white px-4 py-2 rounded-md">View</a>
+        <div class="flex flex-col gap-2">
+            <span>${item.n_municipalities}/98</span>
+            <a href="https://statbank.dk/${item.id}" target="_blank" class="bg-blue-500 text-white px-4 py-2 rounded-md">View</a>
+        </div>
     `;
     return card;
 }
@@ -26,6 +29,11 @@ function createCard(item) {
 async function renderCards() {
     const data = await fetchData();
     const cardsContainer = document.getElementById('cardsContainer');
+
+    const resultsCount = document.createElement('span');
+    resultsCount.className = 'text-gray-500';
+    resultsCount.textContent = `Number of tables with municipality-level data: ${data.length}`;
+    cardsContainer.appendChild(resultsCount);
 
     data.forEach(item => {
         const card = createCard(item);

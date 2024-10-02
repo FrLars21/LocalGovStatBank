@@ -1,17 +1,5704 @@
 [
     {
-        "id": "FOLK1AM",
+        "id": "FOLK1A",
         "title": "Befolkningen den 1. i kvartalet",
         "unit": "Antal",
         "updated": "2024-08-12T08:00:00",
-        "firstPeriod": "2008K1",
-        "lastPeriod": "2024K3",
+        "firstPeriod": "",
+        "lastPeriod": "",
         "variables": [
-            "område", 
-            "køn", 
-            "alder", 
-            "civilstand", 
-            "tid"
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "CIVILSTAND",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FOLK1AM",
+        "title": "Befolkningen den 1. i måneden",
+        "unit": "Antal",
+        "updated": "2024-09-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BY2",
+        "title": "Befolkningen 1. januar",
+        "unit": "Antal",
+        "updated": "2024-05-31T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMK",
+            "BYST",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BEV22",
+        "title": "Befolkningens udvikling (foreløbig opgørelse)",
+        "unit": "Antal",
+        "updated": "2024-08-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BEVÆGELSE",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY01",
+        "title": "Befolkningstilvækst pr. 1.000 indbyggere",
+        "unit": "Pr. 1.000 indb.",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "BEVÆGELSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BEV107",
+        "title": "Befolkningens udvikling",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BEVÆGELSE",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "GALDER",
+        "title": "Gennemsnitsalder",
+        "unit": "Gns.",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMK",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FOLK1B",
+        "title": "Befolkningen den 1. i kvartalet",
+        "unit": "Antal",
+        "updated": "2024-08-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "STATSB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FOLK1C",
+        "title": "Befolkningen den 1. i kvartalet",
+        "unit": "Antal",
+        "updated": "2024-08-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "HERKOMST",
+            "IELAND",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FOLK1D",
+        "title": "Befolkningen den 1. i kvartalet",
+        "unit": "Antal",
+        "updated": "2024-08-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "STATSB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FOLK1E",
+        "title": "Befolkningen den 1. i kvartalet",
+        "unit": "Antal",
+        "updated": "2024-08-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "HERKOMST",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDOPH1",
+        "title": "Indvandrere 1. januar",
+        "unit": "Antal",
+        "updated": "2024-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OPHGR1",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDOPH3",
+        "title": "Indvandrere 1. januar",
+        "unit": "Antal",
+        "updated": "2024-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OPHGR2",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EB3",
+        "title": "Børn af efterkommere 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OPHER",
+            "KØN",
+            "ALDER",
+            "IELAND",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EB4",
+        "title": "Befolkningen 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "HERKOMST",
+            "KØN",
+            "ALDER",
+            "IELAND",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FRKM124",
+        "title": "Befolkningsfremskrivning 2024",
+        "unit": "Antal",
+        "updated": "2024-06-04T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FRKM224",
+        "title": "Nøgletal 2024: Fremskrivning af befolkningens bevægelser",
+        "unit": "Antal",
+        "updated": "2024-06-04T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "BEVÆGELSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FODIE",
+        "title": "Levendefødte",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MOHERK",
+            "MOOPRIND",
+            "MOSTAT",
+            "MODERSALDER",
+            "BARNKON",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FOD111",
+        "title": "Gennemsnitsalder for fødende kvinder og nybagte fædre",
+        "unit": "Gns.",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FOD407",
+        "title": "Fertilitetskvotienter",
+        "unit": "Pr. 1.000 kvinder",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FOD207",
+        "title": "Døde",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HISBK",
+        "title": "Middellevetid for 0-årige",
+        "unit": "År",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FAM55N",
+        "title": "Husstande 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "HUSTYP",
+            "HUSSTØR",
+            "ANTBORNH",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FAM122N",
+        "title": "Voksne 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "HUSTYP",
+            "ANTPERSH",
+            "ANTBORNH",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FAM44N",
+        "title": "Familier 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FAMTYP",
+            "FAMSTØR",
+            "ANTBØRN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FAM44BA",
+        "title": "Børnefamilier 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "FAMTYPE",
+            "BOERNALD",
+            "BOERNAL1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY04",
+        "title": "Familier m/u børn i procent af alle familier i samme kommune eller kommunegruppe",
+        "unit": "Pct.",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FAMTYP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FAM100N",
+        "title": "Voksne 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FAMTYP",
+            "ANTPF",
+            "ANTBRNF",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FAM111N",
+        "title": "Børn 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FAMTYP",
+            "ANTPF",
+            "ANTBRNF",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FAM133N",
+        "title": "Børn 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "HUSTYP",
+            "ANTPERSH",
+            "ANTBORNH",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BRN13",
+        "title": "Børn",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMR20",
+            "VOKSBOFAM",
+            "BOFAMTYP",
+            "VOKSAMFAM",
+            "SAMFAMTYP",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BRN15",
+        "title": "Børn fordelt på søskende de bor sammen med - antal og kombination",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "FAMTYPE",
+            "ANTSØS",
+            "KOMBSØS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BRN16",
+        "title": "Børn fordelt på alle søskende - antal og kombination",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "FAMTYPE",
+            "ANTSØS",
+            "KOMBSØS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BRN9",
+        "title": "Børn",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "FAMTYP",
+            "MORSTAT",
+            "FARSTAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BRN11",
+        "title": "Børn med familieskift",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FAMSKIFT",
+            "FAMTYPSAA",
+            "FAMTYPAA",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BRN10",
+        "title": "Børn og unge (alle 0-29-årige) 1. januar, der har mistet forældre ved dødsfald",
+        "unit": "Antal",
+        "updated": "2024-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "MORSTAT",
+            "FARSTAT",
+            "FORST",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VIE207",
+        "title": "Vielser mellem to af forskelligt køn",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BRUGBOP",
+            "BRUDBOP",
+            "BRUGALD",
+            "BRUDALD",
+            "BRUGTCIV",
+            "BRUDTCIV",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VIE307",
+        "title": "Vielser mellem to af forskelligt køn",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "MABO",
+            "KVBO",
+            "VIMDR",
+            "VIMYN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SKI107",
+        "title": "Skilsmisser mellem to af forskelligt køn",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "MABO",
+            "KVBO",
+            "MAALD",
+            "KVALD",
+            "AGTVAR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SKI207",
+        "title": "Skilsmisser mellem to af forskelligt køn",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "MABO",
+            "KVBO",
+            "SKMDR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOERN3",
+        "title": "Normeringer i kommunale og selvejende daginstitutioner og dagpleje",
+        "unit": "Antal",
+        "updated": "2023-11-17T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BLSTKOM",
+            "PASKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOERN7",
+        "title": "Normeringer i kommunale og selvejende forældrebestyrelser",
+        "unit": "Antal",
+        "updated": "2023-12-21T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "FORAELDREBESTYRELSE",
+            "ALDGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOERN2",
+        "title": "Fuldtidsomregnet indskrevne børn i kommunale og selvejende daginstitutioner og dagpleje",
+        "unit": "Antal",
+        "updated": "2023-11-17T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BLSTKOM",
+            "PASKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOERN1",
+        "title": "Fuldtidsomregnet pædagogisk personale i kommunale og selvejende daginstitutioner og dagpleje",
+        "unit": "Antal",
+        "updated": "2024-01-25T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "OVERENS",
+            "UDDANNELSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "PBOERN2",
+        "title": "Fuldtidsomregnet indskrevne børn i private dagtilbudsinstitutioner",
+        "unit": "Antal",
+        "updated": "2024-01-25T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BLSTKOM",
+            "PASKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "PBOERN1",
+        "title": "Fuldtidsomregnet pædagogisk personale i private dagtilbudsinstitutioner",
+        "unit": "Antal",
+        "updated": "2023-11-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "OVERENS",
+            "UDDANNELSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOERN5",
+        "title": "Indskrevne børn i fritidsordninger",
+        "unit": "Antal",
+        "updated": "2024-05-17T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "PASKAT",
+            "EJERFORM",
+            "ALDER1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOERN61",
+        "title": "Fuldtidsomregnet pædagogisk personale i kommunale skolefritidsordninger",
+        "unit": "Antal",
+        "updated": "2024-05-17T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "STILKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "DAGTIL4",
+        "title": "Modtagere af tilskud vedr. privat pasning og pasning af egne børn",
+        "unit": "Antal",
+        "updated": "2024-04-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "TILSKUDSART",
+            "BERORT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOERN4",
+        "title": "Institutioner og enheder",
+        "unit": "Antal",
+        "updated": "2024-02-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BLSTKOM",
+            "PASTIL",
+            "EJERFORM",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RES88",
+        "title": "Årstakster i børnepasning",
+        "unit": "Kr.",
+        "updated": "2024-04-02T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "INSTITUTION",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FLY33",
+        "title": "Flytninger inden for kommuner",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FLY66",
+        "title": "Flytninger mellem kommuner",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "TILKOMMUNE",
+            "FRAKOMMUNE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VAN1KVT",
+        "title": "Indvandringer (foreløbig opgørelse)",
+        "unit": "Antal",
+        "updated": "2024-08-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "INDVLAND",
+            "STATSB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VAN1UGE",
+        "title": "Indvandringer",
+        "unit": "Antal",
+        "updated": "2024-09-03T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "INDVLAND",
+            "STATSB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VAN1AAR",
+        "title": "Indvandringer",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "INDVLAND",
+            "STATSB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VAN2KVT",
+        "title": "Udvandringer (foreløbig opgørelse)",
+        "unit": "Antal",
+        "updated": "2024-08-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "UDVLAND",
+            "STATSB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VAN2AAR",
+        "title": "Udvandringer",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "UDVLAND",
+            "STATSB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL101",
+        "title": "Boliger",
+        "unit": "Antal",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BEBO",
+            "ANVENDELSE",
+            "UDLFORH",
+            "EJER",
+            "OPFØRELSESÅR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL102",
+        "title": "Boliger",
+        "unit": "Antal",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "BEBO",
+            "ANVENDELSE",
+            "OPFØRELSESÅR",
+            "OPVARMNING",
+            "TOILET",
+            "BAD",
+            "KOEKKEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL103",
+        "title": "Boliger",
+        "unit": "Antal",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "BEBO",
+            "ANVENDELSE",
+            "ANTVÆR",
+            "BOLIGSTØR",
+            "HUSSTØR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL104",
+        "title": "Boliger",
+        "unit": "Antal",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "BEBO",
+            "ANVENDELSE",
+            "UDLFORH",
+            "HUSTYP",
+            "ANTBØRN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL105",
+        "title": "Boliger",
+        "unit": "Antal",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "BEBO",
+            "ANVENDELSE",
+            "OPVARMNING",
+            "TOILET",
+            "BAD",
+            "HUSTYP",
+            "ANTBØRN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL106",
+        "title": "Boliger",
+        "unit": "-",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "ANVENDELSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL201",
+        "title": "Personer i boliger",
+        "unit": "Antal",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "ANVENDELSE",
+            "UDLFORH",
+            "EJER",
+            "OPFØRELSESÅR",
+            "ALDER1",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL202",
+        "title": "Personer",
+        "unit": "Antal",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "ANVENDELSE",
+            "OPVARMNING",
+            "TOILET",
+            "BAD",
+            "KOEKKEN",
+            "ALDER1",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL203",
+        "title": "Personer",
+        "unit": "Antal",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "ANVENDELSE",
+            "UDLFORH",
+            "ANTVÆR",
+            "HUSSTØR",
+            "ANTBØRN",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOL204",
+        "title": "Personer",
+        "unit": "Antal",
+        "updated": "2024-04-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "ANVENDELSE",
+            "UDLFORH",
+            "HUSTYP",
+            "ANTBØRN",
+            "ALDER1",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDAMP01",
+        "title": "Befolkningen",
+        "unit": "Antal",
+        "updated": "2019-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "PERSG",
+            "BNØGLE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDAMP02",
+        "title": "Befolkningen",
+        "unit": "Antal",
+        "updated": "2019-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "DIAGG",
+            "BNØGLE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IND03",
+        "title": "Indlæggelser, sengedage og indlagte patienter",
+        "unit": "Antal",
+        "updated": "2019-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BNØGLE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDP01",
+        "title": "Indlagte patienter",
+        "unit": "Antal",
+        "updated": "2019-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "DOMDIAGNOSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDP02",
+        "title": "Indlagte patienter",
+        "unit": "Antal",
+        "updated": "2019-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "DIAGNOSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED19A",
+        "title": "Indlæggelser og sengeliggetider for personer på 67 år og derover",
+        "unit": "Antal",
+        "updated": "2024-08-28T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MÆNGDE4",
+            "DIAGNOSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED20A",
+        "title": "Forløb og genindlæggelser for personer på 67 år og derover",
+        "unit": "-",
+        "updated": "2024-08-28T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MÆNGDE4",
+            "DIAGNOSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AMB03",
+        "title": "Ambulante behandlinger og ambulante patienter",
+        "unit": "Antal",
+        "updated": "2019-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BNØGLE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AMBP01",
+        "title": "Ambulante patienter",
+        "unit": "Antal",
+        "updated": "2019-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "DOMDIAGNOSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AMBP02",
+        "title": "Ambulante patienter",
+        "unit": "Antal",
+        "updated": "2019-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "DIAGNOSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SYGK1",
+        "title": "Lægebesøg mv. med offentlig tilskud",
+        "unit": "Antal",
+        "updated": "2024-05-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESART",
+            "ALERAMS",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SYGKS1",
+        "title": "Lægebesøg mv. med offentlig tilskud (detaljeret)",
+        "unit": "Antal",
+        "updated": "2024-05-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESART",
+            "ALERAMS",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SYGP1",
+        "title": "Personer med kontakt til læge mv. med offentlig tilskud",
+        "unit": "Antal",
+        "updated": "2024-05-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESART",
+            "ALERAMS",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SYGPS1",
+        "title": "Modtagere af ydelser i forbindelse med lægebesøg mv.",
+        "unit": "Antal",
+        "updated": "2024-05-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESART",
+            "ALERAMS",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SYGUS1",
+        "title": "Offentlige udgifter ved lægebesøg mv. (detaljeret)",
+        "unit": "1.000 kr.",
+        "updated": "2024-05-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESART",
+            "ALERAMS",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SYGU1",
+        "title": "Offentlige udgifter ved lægebesøg mv.",
+        "unit": "1.000 kr.",
+        "updated": "2024-05-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESART",
+            "ALERAMS",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SYGSIK",
+        "title": "Befolkningen",
+        "unit": "Antal",
+        "updated": "2023-10-19T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SYGSIK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY26",
+        "title": "Overvægt blandt børn",
+        "unit": "Pct.",
+        "updated": "2024-01-02T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY27",
+        "title": "Borgere pr. lægekapacitet",
+        "unit": "Antal",
+        "updated": "2024-01-02T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEHB6",
+        "title": "Lægebesøg hos praktiserende læge",
+        "unit": "Antal",
+        "updated": "2024-05-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "FAMTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEHI6",
+        "title": "Ligestillingsindikator for lægebesøg hos praktiserende læge",
+        "unit": "-",
+        "updated": "2024-05-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "INDIKATOR",
+            "OMRÅDE",
+            "ALDER",
+            "FAMTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "MEDI1B",
+        "title": "Salg af receptpligtig medicin (eksperimentel statistik)",
+        "unit": "Antal",
+        "updated": "2023-02-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MEDICINTYPE",
+            "BNØGLE",
+            "KØN",
+            "AGEBYGROUP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HJEMSYG",
+        "title": "Modtagere af hjemmesygepleje (eget hjem)",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER1",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HJEMSYG2",
+        "title": "Leveret hjemmesygepleje (eget hjem)",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER1",
+            "KOEN",
+            "DAGE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY09",
+        "title": "Folketingsvalg",
+        "unit": "Pct.",
+        "updated": "2023-06-09T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "VALRES",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FVKOM",
+        "title": "Folketingsvalg",
+        "unit": "Antal",
+        "updated": "2022-11-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "VALRES",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FVPANDEL",
+        "title": "Partiernes stemmeandel (Folketingsvalg)",
+        "unit": "Pct.",
+        "updated": "2022-11-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "VALRES",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KVRES",
+        "title": "Valg til kommunalbestyrelser",
+        "unit": "Antal",
+        "updated": "2022-04-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "VALRES",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY08",
+        "title": "Valg til kommunalbestyrelser",
+        "unit": "Pct.",
+        "updated": "2023-06-09T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "VALRES",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VALGK3",
+        "title": "Valg til kommunalbestyrelser",
+        "unit": "Antal",
+        "updated": "2022-04-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "PARTI",
+            "STEMMER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KV21PERS",
+        "title": "Valgte kandidaters personlige stemmer ved kommunalvalget i 2021",
+        "unit": "-",
+        "updated": "2022-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KANDIDAT",
+            "STEMMETYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KV17PERS",
+        "title": "Valgte kandidaters personlige stemmer ved kommunalvalget i 2017",
+        "unit": "-",
+        "updated": "2022-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KANDIDAT",
+            "STEMMETYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KV13PERS",
+        "title": "Valgte kandidaters personlige stemmer ved kommunalvalget i 2013",
+        "unit": "-",
+        "updated": "2022-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KANDIDAT",
+            "STEMMETYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KV09PERS",
+        "title": "Valgte kandidaters personlige stemmer ved kommunalvalget i 2009",
+        "unit": "-",
+        "updated": "2022-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KANDIDAT",
+            "STEMMETYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KV05PERS",
+        "title": "Valgte kandidaters personlige stemmer ved kommunalvalget i 2005",
+        "unit": "-",
+        "updated": "2022-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KANDIDAT",
+            "STEMMETYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KV01PERS",
+        "title": "Valgte kandidaters personlige stemmer ved kommunalvalget i 2001",
+        "unit": "-",
+        "updated": "2022-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KANDIDAT",
+            "STEMMETYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KV97PERS",
+        "title": "Valgte kandidaters personlige stemmer ved kommunalvalget i 1997",
+        "unit": "-",
+        "updated": "2022-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KANDIDAT",
+            "STEMMETYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEDB2",
+        "title": "Opstillede og valgte kandidater til kommunalvalg",
+        "unit": "Antal",
+        "updated": "2022-04-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KANDIDAT",
+            "KØN",
+            "ALDER",
+            "KOMK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEDI2",
+        "title": "Ligestillingsindikator for opstillede og valgte kandidater til kommunalvalg",
+        "unit": "-",
+        "updated": "2022-04-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KANDIDAT",
+            "INDIKATOR",
+            "ALDER",
+            "KOMK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EVKOM1",
+        "title": "Europa-Parlamentsvalg",
+        "unit": "Antal",
+        "updated": "2024-06-21T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "VALRES",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EVPANDEL",
+        "title": "Partiernes stemmeandel (Europa-Parlamentsvalg)",
+        "unit": "Pct.",
+        "updated": "2024-06-21T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "VALRES",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FAKOM",
+        "title": "Folkeafstemninger",
+        "unit": "Antal",
+        "updated": "2022-06-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "VALRES",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KM6",
+        "title": "Befolkningen 1. januar",
+        "unit": "Antal",
+        "updated": "2024-02-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMK",
+            "KØN",
+            "ALDER",
+            "FKMED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RAS200",
+        "title": "Erhvervs- og beskæftigelsesfrekvenser (ultimo november)",
+        "unit": "Pct.",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "HERKOMST",
+            "ALDER",
+            "KØN",
+            "BEREGNING",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RAS201",
+        "title": "Befolkningen (ultimo november)",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SOCIO",
+            "HERKOMST",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RAS209",
+        "title": "Befolkningen (ultimo november)",
+        "unit": "Antal",
+        "updated": "2024-03-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDDANNELSE",
+            "SOCIO",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RAS210",
+        "title": "Befolkningen 13-70 år (ultimo november)",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPKOM",
+            "SOCIO",
+            "ALERAMS",
+            "KON",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEAB2",
+        "title": "Befolkningen",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SOCIO",
+            "FAMTYPE",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FLOW2",
+        "title": "Befolkningens skift af socioøkonomisk status",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPKOM",
+            "TIDSOCIO",
+            "NYSOCIO",
+            "BEVÆGELSEV",
+            "KON",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEAI2",
+        "title": "Ligestillingsindikator for erhvervs- og beskæftigelsesfrekvenser",
+        "unit": "-",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "FREK",
+            "INDIKATOR",
+            "FAMTYPE",
+            "OMRÅDE",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KAS200",
+        "title": "Erhvervs- og beskæftigelsesfrekvenser",
+        "unit": "Pct.",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "HERKOMST",
+            "ALDER",
+            "KØN",
+            "BEREGNING",
+            "PERIODE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KAS201",
+        "title": "Befolkningen",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SOCIO",
+            "HERKOMST",
+            "ALDER",
+            "KØN",
+            "PERIODE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KAS209",
+        "title": "Befolkningen",
+        "unit": "Antal",
+        "updated": "2024-03-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDDANNELSE",
+            "SOCIO",
+            "ALDER",
+            "KØN",
+            "PERIODE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AMR1",
+        "title": "Befolkningens tilknytning til arbejdsmarkedet (fuldtidspersoner)",
+        "unit": "Antal",
+        "updated": "2024-03-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SOCIO",
+            "KOEN",
+            "ALDER1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "NEET1",
+        "title": "Befolkningen (16-24 år)",
+        "unit": "Antal",
+        "updated": "2024-03-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "STATUSNEET",
+            "KØN",
+            "BOPOMR",
+            "SOCIO",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "NEET2",
+        "title": "Befolkningen (16-24 år)",
+        "unit": "Antal",
+        "updated": "2024-03-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "STATUSNEET",
+            "BOPOMR",
+            "KON",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY10",
+        "title": "Andel af unge (16-24 år) uden for beskæftigelse og uddannelse (NEET)",
+        "unit": "Pct.",
+        "updated": "2024-03-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEAI6",
+        "title": "Ligestillingsindikator for NEET",
+        "unit": "-",
+        "updated": "2024-03-07T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "INDIKATOR",
+            "BOPOMR",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RAS301",
+        "title": "Beskæftigede (ultimo november)",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BRANCHE07",
+            "SOCIO",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RAS302",
+        "title": "Beskæftigede (ultimo november)",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BRANCHE07",
+            "SOCIO",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RAS310",
+        "title": "Beskæftigede (ultimo november)",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDDANNELSE",
+            "BRANCHE07",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEAB4",
+        "title": "Beskæftigede",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BRANCHE07",
+            "FKATEGORI",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RAS305",
+        "title": "Beskæftigede lønmodtagere (ultimo november)",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ARBEJDSSTED",
+            "SEKTOR",
+            "ARBOMFANG",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KAS301",
+        "title": "Gennemsnitligt antal beskæftigede",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BRANCHE07",
+            "SOCIO",
+            "ALDER",
+            "KOEN",
+            "PERIODE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KAS302",
+        "title": "Gennemsnitligt antal beskæftigede",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BRANCHE07",
+            "SOCIO",
+            "ALDER",
+            "KØN",
+            "PERIODE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KAS305",
+        "title": "Gennemsnitligt antal lønmodtagere",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ARBEJDSSTED",
+            "SEKTOR",
+            "ALDER",
+            "KØN",
+            "PERIODE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KAS310",
+        "title": "Gennemsnitligt antal beskæftigede",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDDANNELSE",
+            "BRANCHE07",
+            "ALDER",
+            "KØN",
+            "PERIODE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LBESK69",
+        "title": "Lønmodtagere",
+        "unit": "Antal",
+        "updated": "2024-09-20T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "TAL",
+            "BOPKOM",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "PEND101",
+        "title": "Beskæftigede (ultimo november)",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BRANCHE07",
+            "PENDLING",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "PEND100",
+        "title": "Beskæftigede (ultimo november)",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPKOM",
+            "ARBEJDSSTED",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AFSTA3",
+        "title": "Beskæftigede (ultimo november)",
+        "unit": "Antal",
+        "updated": "2024-05-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ARBEJDSSTED",
+            "SOCIO",
+            "KOEN",
+            "PENDAFST",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AFSTA4",
+        "title": "Gennemsnitlig pendlingsafstand (ultimo november)",
+        "unit": "Km",
+        "updated": "2024-05-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ARBEJDSSTED",
+            "SOCIO",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AFSTB4",
+        "title": "Gennemsnitlig pendlingsafstand (ultimo november)",
+        "unit": "Km",
+        "updated": "2024-05-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "SOCIO",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AFSTB3",
+        "title": "Beskæftigede (ultimo november)",
+        "unit": "Antal",
+        "updated": "2024-05-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "SOCIO",
+            "KOEN",
+            "PENDAFST",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUS08",
+        "title": "Fuldtidsledige (sæsonkorrigeret)",
+        "unit": "-",
+        "updated": "2024-09-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SAESONFAK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUF01",
+        "title": "Fuldtidsledige (foreløbig opgørelse)",
+        "unit": "Antal",
+        "updated": "2024-09-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "AKASSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUF02",
+        "title": "Fuldtidsledige",
+        "unit": "Antal",
+        "updated": "2024-09-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "AKASSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUP01",
+        "title": "Fuldtidsledige i pct. af arbejdsstyrken (foreløbig opgørelse)",
+        "unit": "Pct.",
+        "updated": "2024-09-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUP02",
+        "title": "Fuldtidsledige i pct. af arbejdsstyrken",
+        "unit": "Pct.",
+        "updated": "2024-09-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUP03",
+        "title": "Fuldtidsledige i pct. af samtlige forsikrede (foreløbig opgørelse)",
+        "unit": "Pct.",
+        "updated": "2024-09-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "KØN",
+            "AKASSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEAI9A",
+        "title": "Ligestillingsindikator for fuldtidsledige",
+        "unit": "-",
+        "updated": "2024-09-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "INDIKATOR",
+            "ALDER",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AULK01",
+        "title": "Fuldtidsledige",
+        "unit": "Antal",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "AKASSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AULKP01",
+        "title": "Fuldtidsledige i pct. af arbejdsstyrken",
+        "unit": "Antal",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUL01",
+        "title": "Fuldtidsledige",
+        "unit": "Antal",
+        "updated": "2024-04-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "AKASSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AULP01",
+        "title": "Fuldtidsledige i pct. af arbejdsstyrken",
+        "unit": "Pct.",
+        "updated": "2024-04-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AULK04",
+        "title": "Langtidsledige",
+        "unit": "-",
+        "updated": "2024-06-28T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEAI10",
+        "title": "Ligestillingsindikator for langtidsledige",
+        "unit": "-",
+        "updated": "2024-06-28T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "INDIKATOR",
+            "ALDER",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUA01",
+        "title": "Forsikringsaktive",
+        "unit": "Antal",
+        "updated": "2024-09-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "AKASSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RAS400",
+        "title": "Arbejdsstyrken til ledighedspct-beregning (ultimo november)",
+        "unit": "Antal",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FRA027",
+        "title": "Fravær på kommunale arbejdspladser",
+        "unit": "-",
+        "updated": "2023-12-13T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "FRAVAER",
+            "ARBFUNK",
+            "FRAVAER1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKP101",
+        "title": "Personer",
+        "unit": "-",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "KOEN",
+            "INDKOMSTTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKP106",
+        "title": "Disponibel indkomst",
+        "unit": "-",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "KOEN",
+            "ALDER1",
+            "INDKINTB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKP107",
+        "title": "Personindkomster",
+        "unit": "-",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "KOEN",
+            "UDDNIV",
+            "INDKOMSTTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKP222",
+        "title": "Personlig indkomst før skat for personer over 14 år",
+        "unit": "Antal",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KOEN",
+            "ALDER",
+            "INDKINTS",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKP105",
+        "title": "Indkomst i alt",
+        "unit": "-",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "KOEN",
+            "ALDER1",
+            "INDKINTB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY13",
+        "title": "Personer med offentlige overførsler som hovedindkomstkilde",
+        "unit": "Andel i pct.",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKF11A",
+        "title": "Antal familier i indkomststatistikken",
+        "unit": "Antal",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FAMTYP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKF101",
+        "title": "Familiernes indkomster",
+        "unit": "-",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "BOLIGARTUD",
+            "INDKOMSTTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKF104",
+        "title": "Familiernes indkomster",
+        "unit": "-",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "SOCIO",
+            "INDKOMSTTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKF107",
+        "title": "Højeste fuldførte uddannelse i familien",
+        "unit": "-",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "FAMTYPE",
+            "UDDNIV",
+            "INDKOMSTTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKF111",
+        "title": "Familiernes indkomster",
+        "unit": "-",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "FAMTYP",
+            "INDKOMSTTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKF112",
+        "title": "Familiernes indkomster",
+        "unit": "-",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "FAMTYP",
+            "ANTBØRN",
+            "INDKOMSTTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKF122",
+        "title": "Familiernes indkomst i alt",
+        "unit": "-",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "FAMTYP",
+            "INDKINTB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "INDKF132",
+        "title": "Disponibel familieindkomst",
+        "unit": "-",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "FAMTYP",
+            "INDKINTB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AINDK1",
+        "title": "A-indkomst",
+        "unit": "-",
+        "updated": "2024-05-01T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "KOEN",
+            "INDKOMSTTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AINDK2",
+        "title": "A-indkomst i alt",
+        "unit": "-",
+        "updated": "2024-05-01T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "KOEN",
+            "ALDER1",
+            "INDKINTB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AINDK3",
+        "title": "Udbetalt A-indkomst",
+        "unit": "-",
+        "updated": "2024-05-01T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "KOEN",
+            "ALDER1",
+            "INDKINTB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IFOR32",
+        "title": "Gennemsnitlig ækvivalret disponibel indkomst",
+        "unit": "Gns.",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "DECILGEN",
+            "KOMMUNEDK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IFOR12P",
+        "title": "Personer i Lavindkomst familier",
+        "unit": "Pct.",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "INDKN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IFOR12A",
+        "title": "Personer i Lavindkomst familier",
+        "unit": "Antal",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "INDKN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY07",
+        "title": "Relativ fattigdom (andel af befolkningen)",
+        "unit": "Pct.",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY06",
+        "title": "Gennemsnitlig disponibel indkomst",
+        "unit": "Kr.",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IFOR41",
+        "title": "Ulighedsmål målt på ækvivaleret disponibel indkomst",
+        "unit": "-",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ULLIG",
+            "KOMMUNEDK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IFOR22",
+        "title": "Decilgrænser på ækvivaleret disponibel indkomst",
+        "unit": "Kr.",
+        "updated": "2023-11-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "DECILGR",
+            "KOMMUNEDK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGELB1",
+        "title": "Lønniveau",
+        "unit": "Kr.",
+        "updated": "2024-09-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ARBBOP",
+            "OMRÅDE",
+            "ALDER",
+            "KØN",
+            "FAMTYP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FORMUE12",
+        "title": "Formue",
+        "unit": "-",
+        "updated": "2023-11-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "FORM1",
+            "ENHED",
+            "OMRÅDE",
+            "ALDER",
+            "POPU",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY11",
+        "title": "Median for Nettoformue, 18 år+",
+        "unit": "Kr.",
+        "updated": "2023-11-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "ALDERSSTAND",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY12",
+        "title": "Nettoformue (median)",
+        "unit": "Kr.",
+        "updated": "2023-11-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY14",
+        "title": "Negativ nettoformue (andel af befolkningen)",
+        "unit": "Pct.",
+        "updated": "2023-11-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EJDFOE1",
+        "title": "Formue i fast ejendom",
+        "unit": "-",
+        "updated": "2024-04-25T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "VAERDI",
+            "BOPKOM",
+            "ENHED",
+            "EJENTYP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EJERFOF1",
+        "title": "Husholdningernes formue i fast ejendom og gældskomponenter for familier",
+        "unit": "-",
+        "updated": "2024-04-25T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "FORMGLD",
+            "BOPKOM",
+            "ENHED",
+            "FAMTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EJERFOF2",
+        "title": "Husholdningernes formue i fast ejendom og gældskomponenter for familier",
+        "unit": "-",
+        "updated": "2024-04-25T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "FORMGLD",
+            "BOPKOM",
+            "ENHED",
+            "HUSGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "PENINDB1",
+        "title": "Personer med pensionsindbetalinger",
+        "unit": "-",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ENHED",
+            "KOEN",
+            "ALDER1",
+            "PENTYP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY15",
+        "title": "Pensionformue for personer mindre end 5 år fra folkepensionsalderen (median)",
+        "unit": "Kr.",
+        "updated": "2023-11-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "NGLK",
+        "title": "Udvalgte kommunale regnskabstal",
+        "unit": "Kr.",
+        "updated": "2024-05-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BNØGLE",
+            "BRUTNETUDG",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "REGK11",
+        "title": "Kommunernes regnskaber på hovedkonti",
+        "unit": "-",
+        "updated": "2024-05-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FUNK1",
+            "DRANST",
+            "ART",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "REGK31",
+        "title": "Kommunernes regnskaber på funktioner",
+        "unit": "-",
+        "updated": "2024-05-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FUNKTION",
+            "DRANST",
+            "ART",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "REGK4",
+        "title": "Kommunernes balancer",
+        "unit": "1.000 kr.",
+        "updated": "2024-05-01T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FUNKTION",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "REGK100",
+        "title": "Kommunernes regnskaber på gruppering uden tekst",
+        "unit": "1.000 kr.",
+        "updated": "2024-05-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FUNKTION",
+            "DRANST",
+            "EJER",
+            "GRUPPERING",
+            "ART",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "REGKC",
+        "title": "Kommunernes regnskaber på gruppering med tekst",
+        "unit": "-",
+        "updated": "2024-05-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "DRANST1",
+            "EJER",
+            "ART",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BUDK1",
+        "title": "Kommunernes budgetter, hovedkonti",
+        "unit": "-",
+        "updated": "2024-05-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "REGI07A",
+            "FUNK1",
+            "DRANST",
+            "ART",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BUDK32",
+        "title": "Kommunernes budgetter, funktioner",
+        "unit": "-",
+        "updated": "2024-05-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "REGI07A",
+            "FUNKTION",
+            "DRANST",
+            "ART",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BUDK100",
+        "title": "Kommunernes budgetter, grupperinger uden tekst -",
+        "unit": "1.000 kr.",
+        "updated": "2024-05-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FUNKTION",
+            "DRANST",
+            "EJER",
+            "GRUPPERING",
+            "ART",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BUDKC",
+        "title": "Kommunernes budgetter, grupperinger med tekst -",
+        "unit": "1.000 kr.",
+        "updated": "2024-05-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "DRANST1",
+            "EJER",
+            "ART",
+            "PRISENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "PSKAT",
+        "title": "Personbeskatningen",
+        "unit": "-",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SKATPCT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "PSKAT4",
+        "title": "Slutskat",
+        "unit": "1.000 kr.",
+        "updated": "2023-10-23T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "INDKOMST",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ESKAT",
+        "title": "Beskatningsværdier og ejendomsskatter",
+        "unit": "-",
+        "updated": "2023-11-23T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SKATGRL",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EJDSK1",
+        "title": "Ejendomsskatter",
+        "unit": "1.000 kr.",
+        "updated": "2023-11-23T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SKATTER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EJDSK2",
+        "title": "Ejendomsskatter",
+        "unit": "Skattepromille",
+        "updated": "2023-11-23T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SKATPRO",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "EJDSK3",
+        "title": "Grundskyld",
+        "unit": "1.000 kr.",
+        "updated": "2023-11-23T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "EJENTYP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "TVANG3",
+        "title": "Bekendtgjorte tvangsauktioner",
+        "unit": "Antal",
+        "updated": "2024-01-17T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "DNVPDKF",
+        "title": "Værdipapirstatistik",
+        "unit": "Mio. kr.",
+        "updated": "2024-09-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ISNINAVN",
+            "INVSEKTOR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "DNVPEJER",
+        "title": "Ejerkoncentration i realkreditobligationer",
+        "unit": "Koncentrationsmål",
+        "updated": "2024-09-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ISIN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUK01",
+        "title": "Offentligt forsørgede (fuldtidsmodtagere)",
+        "unit": "Antal",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUK03",
+        "title": "Offentligt forsørgede (aktiverede fuldtidsmodtagere)",
+        "unit": "Antal",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUH01",
+        "title": "Offentligt forsørgede (fuldtidsmodtagere)",
+        "unit": "Antal",
+        "updated": "2024-04-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AUH03",
+        "title": "Offentligt forsørgede (aktiverede fuldtidsmodtagere)",
+        "unit": "Antal",
+        "updated": "2024-04-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KY04",
+        "title": "Kontanthjælp (personer og beløb)",
+        "unit": "-",
+        "updated": "2024-09-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "TAL",
+            "VISITATION",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KY16",
+        "title": "Kontanthjælp (personer og beløb)",
+        "unit": "-",
+        "updated": "2024-09-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "TAL",
+            "YDELSESTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KY034",
+        "title": "Kontanthjælp (personer og beløb)",
+        "unit": "-",
+        "updated": "2024-06-20T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "TAL",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KY035",
+        "title": "Kontanthjælp (helårsmodtagere)",
+        "unit": "-",
+        "updated": "2024-06-20T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "VISITATION",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KY038",
+        "title": "Kontanthjælp (helårsmodtagere)",
+        "unit": "-",
+        "updated": "2024-06-20T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "HERKOMST1",
+            "HERKOMST",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KY051",
+        "title": "Hjælp i særlige tilfælde (personer og beløb)",
+        "unit": "-",
+        "updated": "2024-06-20T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "TAL",
+            "YDELSESTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BARSEL05",
+        "title": "Samboende forældres orlov før fødslen samt i barnets første leveår",
+        "unit": "Dage",
+        "updated": "2024-04-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "TAL",
+            "BERET",
+            "MORUD",
+            "FARUD",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BARSEL04",
+        "title": "Forældres orlov før fødslen samt i barnets første leveår",
+        "unit": "Dage",
+        "updated": "2024-04-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "TAL",
+            "BERET",
+            "MORUD",
+            "FARUD",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BARSEL24",
+        "title": "Orlov før fødslen og i barnet to første leveår for forældre med mere end 46 ugers",
+        "unit": "Dage",
+        "updated": "2024-04-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "TAL",
+            "BERET",
+            "MORUD",
+            "FARUD",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BARSEL25",
+        "title": "Orlov før fødslen og i barnet to første leveår for samboende forældre med mere end 46 ugers barselsorlov",
+        "unit": "Dage",
+        "updated": "2024-04-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "TAL",
+            "BERET",
+            "MORUD",
+            "FARUD",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BARLOV1",
+        "title": "Orlov før fødslen samt i barnets første leveår afholdt af samboende forældre til et barn (født 2. august - 31. december)",
+        "unit": "Dage",
+        "updated": "2024-04-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "TAL",
+            "BERET",
+            "MORUD",
+            "FARUD",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BARLOV3",
+        "title": "Samboende forældre på barselsorlov i barnets første leveår (børn født 2. august - 31. december)",
+        "unit": "Antal",
+        "updated": "2024-04-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "TAL",
+            "BERET",
+            "OMR20",
+            "UGER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "PEN114",
+        "title": "Folkepensionister",
+        "unit": "-",
+        "updated": "2024-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KON",
+            "ALDER",
+            "YDELSESTYPE",
+            "MODTAG1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "PEN113",
+        "title": "Førtidspensionister",
+        "unit": "-",
+        "updated": "2024-07-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KON",
+            "ALDER",
+            "YDELSESTYPE",
+            "MODTAG1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BU43",
+        "title": "Børn og unge der modtager støtte pr. 31. december (andel af 0-22-årige)",
+        "unit": "Pct.",
+        "updated": "2024-06-06T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FORANSTALT",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ANBAAR12",
+        "title": "Anbragte børn og unge pr. 31. december",
+        "unit": "Antal",
+        "updated": "2024-06-06T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ADMKOM",
+            "ANBRINGELSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ANBAAR13",
+        "title": "Anbragte børn og unge pr. 31. december",
+        "unit": "Antal",
+        "updated": "2024-06-06T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ADMKOM",
+            "FORAN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ANBAAR9",
+        "title": "Anbragte børn og unge pr. 31. december",
+        "unit": "Antal",
+        "updated": "2024-06-06T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ADMKOM",
+            "ALERAMS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ANBAAR14",
+        "title": "Iværksatte anbringelser",
+        "unit": "Antal",
+        "updated": "2024-06-06T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ADMKOM",
+            "ALERAMS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ISBU01",
+        "title": "Aktive indsatser og støtte til børn og unge i året",
+        "unit": "Antal",
+        "updated": "2024-06-06T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "INDSATSER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ISBU02",
+        "title": "Børn og unge der modtager indsatser og støtte",
+        "unit": "Antal",
+        "updated": "2024-06-06T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "INDSATSER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "UND1",
+        "title": "Underretninger vedr. børn",
+        "unit": "Antal",
+        "updated": "2024-09-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ADMKOM",
+            "UNDERRETERE",
+            "ALDER1",
+            "KON",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "UND2",
+        "title": "Børn der er modtaget underretninger om",
+        "unit": "Antal",
+        "updated": "2024-09-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ADMKOM",
+            "UNDERRET",
+            "ALDER1",
+            "KON",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "UND3",
+        "title": "Årsager til underretninger vedr. børn",
+        "unit": "Antal",
+        "updated": "2024-09-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ADMKOM",
+            "AFFALDSOPR",
+            "UNDERRETERE",
+            "ALDER1",
+            "KON",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY16",
+        "title": "Andel af børn mellem 0-18 år med underretninger",
+        "unit": "Pct.",
+        "updated": "2024-09-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SMDBV001",
+        "title": "Stofmisbrugsbehandling",
+        "unit": "Antal",
+        "updated": "2024-06-13T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "AKTI",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SMDBV002",
+        "title": "Stofmisbrugsbehandling",
+        "unit": "Antal",
+        "updated": "2024-06-13T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "AKTP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SMDBV004",
+        "title": "Stofmisbrugsbehandling",
+        "unit": "-",
+        "updated": "2024-06-13T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "VENTETIDGARANTI",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "SMDBV005",
+        "title": "Stofmisbrugsbehandling",
+        "unit": "-",
+        "updated": "2024-06-13T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "MYNDIGHEDSKOM",
+            "AFSLUTSTATUS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HANDBU01",
+        "title": "Handicapindsatser til børn og unge mellem 0-17 år",
+        "unit": "Antal",
+        "updated": "2024-06-20T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "INDSATSER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HANDBU02",
+        "title": "Handicapindsatser til børn og unge mellem 0-17 år",
+        "unit": "Antal",
+        "updated": "2024-06-20T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "INDSATSER",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HANDBIL1",
+        "title": "Bevilget støtte til handicapbil",
+        "unit": "Antal",
+        "updated": "2024-08-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "TAL",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HANDBIL2",
+        "title": "Afslag af støtte til handicapbil",
+        "unit": "Antal",
+        "updated": "2024-08-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "TAL",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BTS101",
+        "title": "Modtagere af børnefamilieydelser og tilskud",
+        "unit": "-",
+        "updated": "2024-04-04T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "TILSKUDSART",
+            "KON",
+            "ANTBØRN",
+            "ENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BOST63",
+        "title": "Boligstøtte",
+        "unit": "-",
+        "updated": "2024-03-04T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "MND",
+            "ENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED21",
+        "title": "Serviceindikatorer, andel af befolkning på 67 år og derover",
+        "unit": "Pct.",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SERVYD",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY20",
+        "title": "Hjemmehjælp i eget hjem og plejebolig/plejehjem, andel af befolkning på 67 år og derover",
+        "unit": "Pct.",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "SERVYD",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED10A",
+        "title": "Forebyggende hjemmebesøg, personer og besøg",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "HJEMBESOEG",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED022",
+        "title": "Hjemmehjælp, visiteret tid",
+        "unit": "Timer pr. uge",
+        "updated": "2024-07-08T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED021",
+        "title": "Hjemmehjælp, visiteret tid pr. person",
+        "unit": "Gns. antal timer pr. uge",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED06",
+        "title": "Hjemmehjælp, visiterede personer",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "TIMEUGE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED14",
+        "title": "Hjemmehjælp, visiterede personer der skifter mellem privat og kommunal leverandør",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED12",
+        "title": "Hjemmehjælp, visiterede personer der benytter privat leverandør",
+        "unit": "Pct.",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED13",
+        "title": "Hjemmehjælp, førstegangsvisiterede der benytter privat leverandør",
+        "unit": "Pct.",
+        "updated": "2024-02-19T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VH33",
+        "title": "Private leverandører af hjemmehjælp",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEHI12",
+        "title": "Ligestillingsindikator hjemmehjælp, visiterede personer",
+        "unit": "-",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "INDIKATOR",
+            "OMRÅDE",
+            "ALDER",
+            "FAMTYP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEHI13",
+        "title": "Ligestillingsindikator hjemmehjælp, visiteret tid pr. person",
+        "unit": "Gns. antal timer pr. uge",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "INDIKATOR",
+            "OMRÅDE",
+            "ALDER",
+            "FAMTYP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED01",
+        "title": "Hjemmehjælp, leveret tid",
+        "unit": "Timer pr. uge",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED02",
+        "title": "Hjemmehjælp, leveret tid pr. person",
+        "unit": "Gns. antal timer pr. uge",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED023",
+        "title": "Hjemmehjælp, personer der får leveret hjælp",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "TIMEUGE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED012",
+        "title": "Hjemmehjælp, personer der får leveret hjælp af privat leverandør",
+        "unit": "Pct.",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED08",
+        "title": "Genoptræning/vedligeholdelsestræning, personer",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "YDELSESTYPE",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "REHAB19",
+        "title": "Rehabilitering, personer",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER1",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED16",
+        "title": "Frit boligvalg og gennemsnitlig ventetid til plejehjem og plejeboliger for personer på 67 år og derover",
+        "unit": "-",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "MÆNGDE4",
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AED07",
+        "title": "Hjemmehjælp i plejebolig/plejehjem, visiterede personer",
+        "unit": "Antal",
+        "updated": "2024-06-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ALDER",
+            "KON",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HJALP1",
+        "title": "Udlån af hjælpemidler",
+        "unit": "Antal",
+        "updated": "2024-06-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HJALP2",
+        "title": "Modtagere af udlån af hjælpemidler",
+        "unit": "Antal",
+        "updated": "2024-06-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMMUNEDK",
+            "KONAMS",
+            "ALERAMS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STRAF11",
+        "title": "Anmeldte forbrydelser",
+        "unit": "Antal",
+        "updated": "2024-07-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "OVERTRÆD",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STRAF22",
+        "title": "Anmeldte forbrydelser og sigtelser",
+        "unit": "Antal",
+        "updated": "2024-02-28T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "OVERTRÆD",
+            "ANMSIGT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STRAF44",
+        "title": "Strafferetlige afgørelser",
+        "unit": "Antal",
+        "updated": "2024-03-25T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "OVERTRÆD",
+            "AFGØRELSE",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STRAF46",
+        "title": "Betingede frihedsstraffe",
+        "unit": "Antal",
+        "updated": "2024-03-25T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KOEN",
+            "ALDER",
+            "OVERTRÆD",
+            "AFGØRELSE",
+            "STRAFLANG",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STRAF47",
+        "title": "Ubetingede frihedsstraffe",
+        "unit": "Antal",
+        "updated": "2024-03-25T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KOEN",
+            "ALDER",
+            "OVERTRÆD",
+            "AFGØRELSE",
+            "STRAFLANG",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STRAFNA6",
+        "title": "Skyldige personer",
+        "unit": "Antal",
+        "updated": "2023-12-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KØN",
+            "ALDER",
+            "HERKOMST1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STRAFNA7",
+        "title": "Skyldige personer",
+        "unit": "Antal",
+        "updated": "2023-12-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "OVERTRÆD",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STRAFNA8",
+        "title": "Skyldige personer",
+        "unit": "Antal",
+        "updated": "2023-12-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "AFGØRELSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HFUDD11",
+        "title": "Befolkningens højest fuldførte uddannelse (15-69 år)",
+        "unit": "Antal",
+        "updated": "2024-04-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "HERKOMST",
+            "HFUDD",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HFUDD16",
+        "title": "Befolkningens højest fuldførte uddannelse (15-69 år)",
+        "unit": "Antal",
+        "updated": "2024-04-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "UDDANNELSEF",
+            "SOCIO",
+            "ERHVERV",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "HFUDD21",
+        "title": "Befolkningens højest fuldførte uddannelse (15-29 år)",
+        "unit": "Antal",
+        "updated": "2024-04-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "HERKOMST",
+            "UDDANNELSEF",
+            "HFUIGANG",
+            "ALDER",
+            "KOEN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY19",
+        "title": "Befolkningens højest fuldførte uddannelse (15-69 år) (antal)",
+        "unit": "Antal",
+        "updated": "2024-04-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "HFUDD2",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEUB1",
+        "title": "Befolkningens højeste fuldførte uddannelse (15-69 år)",
+        "unit": "Antal",
+        "updated": "2024-04-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "HERKOMST",
+            "HFUDD",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEUI1",
+        "title": "Ligestillingsindikator for befolkningens højeste fuldførte uddannelse (15-69 år)",
+        "unit": "-",
+        "updated": "2024-04-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "UDDANNELSEF",
+            "INDIKATOR1",
+            "ALDER1",
+            "BOPOMR",
+            "HERKAMS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STATUSU6",
+        "title": "18-25 årige",
+        "unit": "Antal",
+        "updated": "2024-05-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "UDDSTAT",
+            "UDDANNELSE",
+            "GRUNDBEL",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "STATUSV5",
+        "title": "25-45 årige",
+        "unit": "Antal",
+        "updated": "2024-05-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "UDDSTAT",
+            "UDDANNELSE",
+            "GRUNDBEL",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "UDDAKT10",
+        "title": "Uddannelsesaktivitet",
+        "unit": "Antal",
+        "updated": "2024-02-01T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "UDDANNELSE",
+            "ALDER",
+            "KØN",
+            "FSTATUS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "UDDALL10",
+        "title": "Uddannelsesaktivitet",
+        "unit": "Antal",
+        "updated": "2024-09-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "UDDANNELSE",
+            "ALDER",
+            "KØN",
+            "FSTATUS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "UDDAKT11",
+        "title": "Uddannelsesaktivitet",
+        "unit": "Antal",
+        "updated": "2024-02-01T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE1",
+            "UDDANNELSE",
+            "ALDER",
+            "KØN",
+            "FSTATUS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEUI3",
+        "title": "Ligestillingsindikator for uddannelsesaktivitet",
+        "unit": "-",
+        "updated": "2024-01-31T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "UDDANNELSE",
+            "INDIKATOR1",
+            "ALDER",
+            "BOPOMR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "UDDAKT20",
+        "title": "Uddannelsesaktivitet i grundskolen",
+        "unit": "Antal",
+        "updated": "2024-01-31T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "UDDANNELSE",
+            "ALDER",
+            "HERKOMST",
+            "HERKOMST1",
+            "KØN",
+            "GRUNDSKOL",
+            "BOPOMR",
+            "FSTATUS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KVOTIEN",
+        "title": "Klassekvotienter i grundskolen",
+        "unit": "Kvotienter",
+        "updated": "2024-04-19T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KLASSE",
+            "SKTPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY23",
+        "title": "Uddannelsesaktivitet i grundskolen (antal)",
+        "unit": "Antal",
+        "updated": "2024-01-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "FSTATUS",
+            "UDDANNELSE",
+            "GRUNDSKOL",
+            "KOMGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VEU20",
+        "title": "Kursusdeltagelse ved voksen og efteruddannelse",
+        "unit": "Antal",
+        "updated": "2024-02-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "FUDDOMR",
+            "BOPOMR",
+            "ALDER",
+            "KON",
+            "TIDSPUNKTER",
+            "OVERNAT1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KVEU20",
+        "title": "Kursusdeltagelse ved voksen og efteruddannelse",
+        "unit": "Antal",
+        "updated": "2024-09-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "FUDDOMR",
+            "BOPOMR",
+            "ALDER",
+            "KON",
+            "TIDSPUNKTER",
+            "OVERNAT1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEUI2",
+        "title": "Ligestillingsindikator for kursusdeltagelse ved voksen og efteruddannelse",
+        "unit": "-",
+        "updated": "2024-02-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "FUDDOMR",
+            "INDIKATOR1",
+            "ALDER",
+            "BOPOMR",
+            "OVERNAT1",
+            "TIDSPUNKTER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "GF12",
+        "title": "Generel firmastatistik",
+        "unit": "Antal",
+        "updated": "2024-06-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMK",
+            "BRANCHEDB0710TIL127",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ERHV2",
+        "title": "Arbejdssteder og job",
+        "unit": "Antal",
+        "updated": "2023-11-15T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BRANCHEDB0710",
+            "TAL",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ERHV5",
+        "title": "Arbejdssteder",
+        "unit": "Antal",
+        "updated": "2023-11-15T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "SEKTOR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ERHV6",
+        "title": "Arbejdssteder",
+        "unit": "Antal",
+        "updated": "2023-11-15T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BRANCHE0710",
+            "ARBSTRDK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "DEMO19",
+        "title": "Erhvervsdemografi",
+        "unit": "Antal",
+        "updated": "2024-06-21T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "REGI07A",
+            "MÆNGDE4",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BDF51",
+        "title": "Bedrifter",
+        "unit": "-",
+        "updated": "2021-05-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDBEDRIFT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RST01",
+        "title": "Råstofindvinding (1000 m3)",
+        "unit": "1.000 m3",
+        "updated": "2024-10-02T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "RÅSTOFTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "RST04",
+        "title": "Losning af råstoffer fra havet (1000 m3)",
+        "unit": "1.000 m3",
+        "updated": "2024-06-19T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "RÅSTOFTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BYGV11",
+        "title": "Den samlede byggeaktivitet (ikke korrigeret for forsinkelser)",
+        "unit": "M2",
+        "updated": "2024-08-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BYGFASE",
+            "ANVEND",
+            "BYGHERRE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY37",
+        "title": "Nybyggeri (ikke korrigeret for forsinkelser)",
+        "unit": "M2",
+        "updated": "2024-08-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "ANVEND",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BYGV22",
+        "title": "Fuldført byggeri (ikke korrigeret for forsinkelser)",
+        "unit": "-",
+        "updated": "2024-08-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "TAL",
+            "AAR",
+            "BYGGESAG",
+            "ANVENDELSE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BYGV33",
+        "title": "Boliger i det samlede boligbyggeri (ikke korrigeret for forsinkelser)",
+        "unit": "Antal",
+        "updated": "2024-08-14T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BYGFASE",
+            "ANVEND",
+            "BYGHERRE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BYGB12",
+        "title": "Bygninger",
+        "unit": "Antal",
+        "updated": "2024-08-30T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "EJER",
+            "ANVEND",
+            "AREALINT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BYGB34",
+        "title": "Bygningsbestandens areal",
+        "unit": "1.000 m2",
+        "updated": "2024-03-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "ANVEND",
+            "AREALTYPE",
+            "OPFØRELSESÅR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BYGB40",
+        "title": "Bygninger og deres opvarmede areal",
+        "unit": "-",
+        "updated": "2024-03-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MÆNGDE4",
+            "OPVARM",
+            "ANVEND",
+            "OPFØRELSESÅR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BYGB50",
+        "title": "Bygninger og deres bebyggede areal",
+        "unit": "-",
+        "updated": "2024-03-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MÆNGDE4",
+            "TAGMAT",
+            "ANVEND",
+            "OPFØRELSESÅR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BYGB70",
+        "title": "Bygninger og deres etageareal",
+        "unit": "-",
+        "updated": "2024-03-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MÆNGDE4",
+            "ANVEND",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BYGB60",
+        "title": "Bygninger og deres etageareal",
+        "unit": "-",
+        "updated": "2024-03-27T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MÆNGDE4",
+            "YDREMAT",
+            "ANVEND",
+            "OPFØRELSESÅR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "FERIEH6",
+        "title": "Udlejning af feriehuse på månedsbasis",
+        "unit": "Antal",
+        "updated": "2024-09-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "NATION1",
+            "TAL",
+            "PERIODE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIL53",
+        "title": "Nyregistrerede motorkøretøjer",
+        "unit": "Antal",
+        "updated": "2024-09-09T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BILTYPE",
+            "BRUG",
+            "DRIV",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIL600",
+        "title": "Familiernes bilkøb (faktiske tal)",
+        "unit": "Antal",
+        "updated": "2024-06-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KOEBMOENS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIL611",
+        "title": "Familiernes bilkøb (andele og fordelinger)",
+        "unit": "Pct.",
+        "updated": "2024-06-26T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MÆNGDE4",
+            "KOEBMOENS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIL800",
+        "title": "Familiernes bilrådighed (faktiske tal)",
+        "unit": "Antal",
+        "updated": "2024-07-01T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "RAADMOENS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIL811",
+        "title": "Familiernes bilrådighed (andele og fordelinger)",
+        "unit": "Pct.",
+        "updated": "2024-07-01T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "MÆNGDE4",
+            "RAADMOENS",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIL54",
+        "title": "Bestand af motorkøretøjer",
+        "unit": "Antal",
+        "updated": "2024-09-09T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BILTYPE",
+            "BRUG",
+            "DRIV",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIL707",
+        "title": "Bestanden af køretøjer pr. 1. januar",
+        "unit": "Antal",
+        "updated": "2024-04-10T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "BILTYPE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIL710",
+        "title": "Bestanden af personbiler pr.1. januar",
+        "unit": "Antal",
+        "updated": "2024-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "EJER",
+            "DRIV",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIL907",
+        "title": "Bestand af påhængsvogne pr. 1. januar",
+        "unit": "Antal",
+        "updated": "2024-03-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "EJERSKAB",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "UHELDK7",
+        "title": "Færdselsuheld med personskade",
+        "unit": "Antal",
+        "updated": "2024-06-28T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "UHELDA",
+            "OMRÅDE",
+            "BYLAND",
+            "UHELDSIT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "UHELDK1",
+        "title": "Tilskadekomne og dræbte i færdselsuheld",
+        "unit": "Antal",
+        "updated": "2024-06-28T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UHELD",
+            "INDBLAND",
+            "ALDER",
+            "KØN",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IBIB1",
+        "title": "Udlån og lånere",
+        "unit": "Antal",
+        "updated": "2024-08-23T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDLÅNSSTED",
+            "KØN",
+            "DYRKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IBIB1A",
+        "title": "Udlån og lånere",
+        "unit": "Antal",
+        "updated": "2024-04-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDLÅNSSTED",
+            "KØN",
+            "DYRKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IBIB2",
+        "title": "Udlån og lånere",
+        "unit": "Antal",
+        "updated": "2024-08-23T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDLÅNSSTED",
+            "ALDER",
+            "DYRKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IBIB2A",
+        "title": "Udlån og lånere",
+        "unit": "Antal",
+        "updated": "2024-04-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDLÅNSSTED",
+            "ALDER",
+            "DYRKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IBIB3",
+        "title": "Udlån og lånere",
+        "unit": "Antal",
+        "updated": "2024-08-23T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDLÅNSSTED",
+            "HFUDD",
+            "DYRKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IBIB3A",
+        "title": "Udlån og lånere",
+        "unit": "Antal",
+        "updated": "2024-04-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDLÅNSSTED",
+            "HFUDD",
+            "DYRKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IBIB4",
+        "title": "Udlån og lånere",
+        "unit": "Antal",
+        "updated": "2024-08-23T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "AFSTANDBIB",
+            "DYRKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IBIB4A",
+        "title": "Udlån og lånere",
+        "unit": "Antal",
+        "updated": "2024-04-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "AFSTANDBIB",
+            "DYRKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IDRFIN01",
+        "title": "Kommunale udgifter (1000 kr.) til idræt",
+        "unit": "1.000 kr.",
+        "updated": "2024-07-04T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "FUNKTION",
+            "DRANST",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IDRFIN02",
+        "title": "Kommunale udgifter (Kr.) pr. indbygger til idræt",
+        "unit": "Kr. pr. indb.",
+        "updated": "2024-07-04T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "AMT",
+            "FUNKTION",
+            "DRANST",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IDRAKT01",
+        "title": "Idrætsorganisationernes medlemmer",
+        "unit": "Antal",
+        "updated": "2024-07-04T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BLSTKOM",
+            "AKTIVITET",
+            "KON",
+            "ALDER1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IDRAKT02",
+        "title": "Idrætsorganisationernes medlemskaber (andel af befolkningen)",
+        "unit": "Pct.",
+        "updated": "2024-07-04T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BLSTKOM",
+            "KON",
+            "ALDER1",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IDRFAC01",
+        "title": "Idrætsfaciliteter",
+        "unit": "Antal",
+        "updated": "2023-10-12T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "IDRFAC",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "IDRFOR01",
+        "title": "Idrætsforeninger og medlemmer",
+        "unit": "Antal",
+        "updated": "2024-07-04T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BLSTKOM",
+            "ORGANISATION",
+            "AKTP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY51",
+        "title": "Boliger dækket af fastnetbredbånd",
+        "unit": "Andel i pct.",
+        "updated": "2024-02-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "BREDHAST",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KUERH2",
+        "title": "Kulturens erhvervsstruktur",
+        "unit": "Antal",
+        "updated": "2023-12-18T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "AKTIVI",
+            "ENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KUBS02B",
+        "title": "Kulturministeriets udbetalinger",
+        "unit": "-",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KULTUREMNE",
+            "FINANSART",
+            "STATSINSTITUITION",
+            "ENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KUBS05",
+        "title": "Personlige modtagere af Kulturministeriets udbetalinger",
+        "unit": "Antal",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "KULTUREMNE",
+            "KON",
+            "ALDGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KUBS06",
+        "title": "Kulturministeriet udbetalinger til personer",
+        "unit": "1.000 kr.",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "KULTUREMNE",
+            "KON",
+            "ALDGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KUBS07",
+        "title": "Virksomheder (arbejdssteder), der modtager udbetalinger fra Kulturministeriet",
+        "unit": "Antal",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KUBSBELI",
+            "KULTUREMNE",
+            "VIRKTYP2",
+            "VIRKSTR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KUBS08",
+        "title": "Kulturministeriet udbetalinger til virksomheder",
+        "unit": "1.000 kr.",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KUBSBELI",
+            "KULTUREMNE",
+            "VIRKTYP2",
+            "VIRKSTR",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIA01",
+        "title": "Personlige modtagere af biblioteksafgiften",
+        "unit": "Antal",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "BIA02",
+        "title": "Udbetalinger af biblioteksafgiften",
+        "unit": "1.000 kr.",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "BOPOMR",
+            "KØN",
+            "ALDER",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEKI2",
+        "title": "Ligestillingsindikator for Kulturministeriets udbetalinger til personer",
+        "unit": "-",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "INDIKATOR",
+            "BOPOMR",
+            "KULTUREMNE",
+            "ALDGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LIGEKI1",
+        "title": "Ligestillingsindikator for personlige modtagere af Kulturministeriets udbetalinger",
+        "unit": "-",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "INDIKATOR",
+            "BOPOMR",
+            "KULTUREMNE",
+            "ALDGRP",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KUBS04B",
+        "title": "Kulturministeriets udbetalinger målrettet børn",
+        "unit": "-",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KULTUREMNE",
+            "FINANSART",
+            "STATSINSTITUITION",
+            "ENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KUBS09B",
+        "title": "Kulturministeriets udbetalinger særligt målrettet forskning",
+        "unit": "-",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KULTUREMNE",
+            "FINANSART",
+            "STATSINSTITUITION",
+            "ENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "KUBS10B",
+        "title": "Kulturministeriets udbetalinger særligt målrettet uddannelse",
+        "unit": "-",
+        "updated": "2023-10-05T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "KULTUREMNE",
+            "FINANSART",
+            "STATSINSTITUITION",
+            "ENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ARE207",
+        "title": "Areal 1. januar",
+        "unit": "Km2",
+        "updated": "2024-02-29T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "AREALDK",
+        "title": "Areal",
+        "unit": "-",
+        "updated": "2023-01-16T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "ARE1",
+            "OMRÅDE",
+            "ENHED",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "ENEGEO",
+        "title": "Industriens energiforbrug",
+        "unit": "1.000 GJ (gigajoule)",
+        "updated": "2023-08-22T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY24",
+        "title": "Husholdningsaffald",
+        "unit": "Ton",
+        "updated": "2023-12-20T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "BEHANDLING",
+            "AFFFRAK",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "LABY25",
+        "title": "Nøgletal for husholdningsaffald",
+        "unit": "-",
+        "updated": "2023-12-20T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "KOMGRP",
+            "BNØGLE",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VANDIND",
+        "title": "Indvinding af vand",
+        "unit": "Mio. m3",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "VANDTYP",
+            "INDKAT",
+            "Tid"
+        ],
+        "n_municipalities": 98
+    },
+    {
+        "id": "VANDUD",
+        "title": "Spildevandsudledning",
+        "unit": "-",
+        "updated": "2023-11-24T08:00:00",
+        "firstPeriod": "",
+        "lastPeriod": "",
+        "variables": [
+            "OMRÅDE",
+            "UDL",
+            "ANLAEG",
+            "Tid"
         ],
         "n_municipalities": 98
     }
