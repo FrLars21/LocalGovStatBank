@@ -12,14 +12,16 @@
             <h1 class="text-4xl font-bold text-gray-900">LocalGovStatBank</h1>
             <p class="text-lg text-gray-700">Discover comprehensive municipality-level data published by Statistics Denmark.</p>
         </section>
-        <div class="flex justify-between items-center mb-4">
+        <div id="results-meta" class="flex justify-between items-center mb-4">
             <div id="resultsCount" class="text-gray-500"></div>
             <div>
                 <label for="orderBy" class="mr-2 text-gray-700">Order by:</label>
-                <select id="orderBy" class="border border-gray-300 rounded-md p-2 bg-white">
-                    <option value="updatedDesc">Recently updated</option>
-                    <option value="updatedAsc">Least recently updated</option>
-                    <option value="title">Alphabetically</option>
+                <select id="orderBy" class="border rounded px-2 py-1">
+                    <option value="updatedDesc">Updated (Newest first)</option>
+                    <option value="updatedAsc">Updated (Oldest first)</option>
+                    <option value="title">Title (A-Z)</option>
+                    <option value="municipalitiesDesc">Municipalities (Most first)</option>
+                    <option value="municipalitiesAsc">Municipalities (Least first)</option>
                 </select>
             </div>
         </div>
